@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/RelativeLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="4.11"
+        android:orientation="vertical" >
+
+        <com.github.mikephil.charting.charts.LineChart
+            android:id="@+id/ECGgraph"
+            android:layout_width="fill_parent"
+            android:layout_height="230dp"
+            android:visibility="invisible"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentBottom="true" />
+
+        <edu.utk.biodynamics.LineGraph
+            android:id="@+id/GridBackground"
+            android:layout_width="fill_parent"
+            android:layout_height="230dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentBottom="true" />
+
+        <TextView
+            android:id="@+id/HR_icon"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:paddingTop="10dp"
+            android:background="@drawable/hr_icon"
+            android:alpha="0.8"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="10dp"
+            android:shadowColor="#000a15"
+            android:gravity="center_horizontal" />
+
+        <TextView
+            android:id="@+id/HR_label"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:paddingTop="10dp"
+            android:alpha="0.8"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="5dp"
+            android:shadowColor="#000a15"
+            android:text="..."
+            android:gravity="center_horizontal" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="25mm/sec"
+            android:id="@+id/textView"
+            android:layout_gravity="right|top"
+            android:layout_marginRight="10dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="15dp" />
+
+        <ProgressBar
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/touchwaitPB"
+            android:layout_centerInParent="true"
+            android:visibility="invisible"
+            style="@android:style/Widget.Holo.ProgressBar" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="320dp"
+        android:layout_height="200dp"
+        android:id="@+id/no_bh_popup"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/abc_dialog_material_background_light"
+        android:visibility="visible"
+        android:layout_marginTop="20dp">
+
+        <ImageView
+            android:layout_width="70dp"
+            android:layout_height="60dp"
+            android:id="@+id/imageView"
+            android:src="@drawable/bt_nc"
+            android:layout_centerHorizontal="true"
+            android:clickable="true" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="SmartECG is not currently connected"
+            android:id="@+id/textView2"
+            android:layout_below="@+id/imageView"
+            android:gravity="center_horizontal"
+            android:layout_centerHorizontal="true"
+            android:textColor="@android:color/holo_red_light"
+            android:textStyle="bold"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="Make sure SmartECG is turned on and your Bluetooth is enabled"
+            android:id="@+id/textView3"
+            android:layout_below="@+id/textView2"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:gravity="center_horizontal" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="Still not working?"
+            android:id="@+id/textView4"
+            android:layout_below="@+id/textView3"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="15dp"
+            android:gravity="center_horizontal" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:text="Connect Manually"
+            android:layout_below="@id/textView4"
+            android:layout_marginTop="2dp"
+            android:layout_centerHorizontal="true"
+            android:onClick="connectToBH"
+            style="@android:style/Widget.Holo.Light.Button.Small" />
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="320dp"
+        android:layout_height="160dp"
+        android:id="@+id/no_touch_popup"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/abc_dialog_material_background_light"
+        android:visibility="invisible"
+        android:layout_marginTop="20dp">
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="90dp"
+            android:id="@+id/ntimageView"
+            android:src="@mipmap/touch_icon"
+            android:layout_centerHorizontal="true"
+            android:clickable="true"
+            android:onClick="connectToBH" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/ntimageView"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="SmartECG is not reading your touch"
+            android:id="@+id/ntTV"
+            android:gravity="center_horizontal"
+            android:layout_centerHorizontal="true"
+            android:textColor="@android:color/holo_red_light"
+            android:textStyle="bold"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="Please ensure both thumbs are in good contact with the device electrodes"
+            android:id="@+id/ntTV2"
+            android:layout_below="@+id/ntTV"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:gravity="center_horizontal" />
+    </RelativeLayout>
+
+</FrameLayout><!-- From: file:/C:/Users/DSClifford/Downloads/amd64/Desktop/SmartECG/SmartECG/app/src/main/res/layout/main.xml -->

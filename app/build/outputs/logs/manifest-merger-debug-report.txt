@@ -1,0 +1,137 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\DSClifford\Downloads\amd64\Desktop\SmartECG\SmartECG\app\src\main\AndroidManifest.xml:17:1-91:12
+	xmlns:android
+		ADDED from C:\Users\DSClifford\Downloads\amd64\Desktop\SmartECG\SmartECG\app\src\main\AndroidManifest.xml:17:11-69
+	package
+		ADDED from C:\Users\DSClifford\Downloads\amd64\Desktop\SmartECG\SmartECG\app\src\main\AndroidManifest.xml:18:5-34
+		INJECTED from C:\Users\DSClifford\Downloads\amd64\Desktop\SmartECG\SmartECG\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\DSClifford\Downloads\amd64\Desktop\SmartECG\SmartECG\app\src\main\AndroidManifest.xml
+	android:versionName
+		ADDED from C:\Users\DSClifford\Downloads\amd64\Desktop\SmartECG\SmartECG\app\src\main\AndroidManifest.xml:20:5-30
+	android:versionCode
+		ADDED from C:\Users\DSClifford\Downloads\amd64\Desktop\SmartECG\SmartECG\app\src\main\AndroidManifest.xml:19:5-29
+		INJECTED from C:\Users\DSClifford\Downloads\amd64\Desktop\SmartECG\SmartECG\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\DSClifford\Downloads\amd64\Desktop\SmartECG\SmartECG\app\src\main\AndroidManifest.xml
+uses-sdk
+ADDED from C:\Users\DSClifford\Downloads\amd64\Desktop\SmartECG\SmartECG\app\src\main\AndroidManifest.xml:22:5-24:41
+MERGED from [com.android.support:support-v4:23.0.1] C:\Users\DSClifford\Downloads\amd64\Desktop\SmartECG\SmartECG\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.1\AndroidManifest.xml:20:5-43
+	android:targetSdkVersion
+		ADDED from C:\Users\DSClifford\Downloads\amd64\Desktop\SmartECG\SmartECG\app\src\main\AndroidManifest.xml:24:9-38
+		INJECTED from C:\Users\DSClifford\Downloads\amd64\Desktop\SmartECG\SmartECG\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\DSClifford\Downloads\amd64\Desktop\SmartECG\SmartECG\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		ADDED from C:\Users\DSClifford\Downloads\amd64\Desktop\SmartECG\SmartECG\app\src\main\AndroidManifest.xml:23:9-35
+		INJECTED from C:\Users\DSClifford\Downloads\amd64\Desktop\SmartECG\SmartECG\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\DSClifford\Downloads\amd64\Desktop\SmartECG\SmartECG\app\src\main\AndroidManifest.xml
+uses-permission#android.permission.BLUETOOTH
+ADDED from C:\Users\DSClifford\Downloads\amd64\Desktop\SmartECG\SmartECG\app\src\main\AndroidManifest.xml:26:5-68
+	android:name
+		ADDED from C:\Users\DSClifford\Downloads\amd64\Desktop\SmartECG\SmartECG\app\src\main\AndroidManifest.xml:26:22-65
+uses-permission#android.permission.BLUETOOTH_ADMIN
+ADDED from C:\Users\DSClifford\Downloads\amd64\Desktop\SmartECG\SmartECG\app\src\main\AndroidManifest.xml:27:5-74
+	android:name
+		ADDED from C:\Users\DSClifford\Downloads\amd64\Desktop\SmartECG\SmartECG\app\src\main\AndroidManifest.xml:27:22-71
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from C:\Users\DSClifford\Downloads\amd64\Desktop\SmartECG\SmartECG\app\src\main\AndroidManifest.xml:28:5-81
+	android:name
+		ADDED from C:\Users\DSClifford\Downloads\amd64\Desktop\SmartECG\SmartECG\app\src\main\AndroidManifest.xml:28:22-78
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from C:\Users\DSClifford\Downloads\amd64\Desktop\SmartECG\SmartECG\app\src\main\AndroidManifest.xml:29:5-75
+	android:name
+		ADDED from C:\Users\DSClifford\Downloads\amd64\Desktop\SmartECG\SmartECG\app\src\main\AndroidManifest.xml:29:22-72
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from C:\Users\DSClifford\Downloads\amd64\Desktop\SmartECG\SmartECG\app\src\main\AndroidManifest.xml:30:5-80
+	android:name
+		ADDED from C:\Users\DSClifford\Downloads\amd64\Desktop\SmartECG\SmartECG\app\src\main\AndroidManifest.xml:30:22-77
+application
+ADDED from C:\Users\DSClifford\Downloads\amd64\Desktop\SmartECG\SmartECG\app\src\main\AndroidManifest.xml:32:5-89:19
+MERGED from [com.android.support:support-v4:23.0.1] C:\Users\DSClifford\Downloads\amd64\Desktop\SmartECG\SmartECG\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.1\AndroidManifest.xml:22:5-20
+	android:label
+		ADDED from C:\Users\DSClifford\Downloads\amd64\Desktop\SmartECG\SmartECG\app\src\main\AndroidManifest.xml:34:9-41
+	android:icon
+		ADDED from C:\Users\DSClifford\Downloads\amd64\Desktop\SmartECG\SmartECG\app\src\main\AndroidManifest.xml:33:9-43
+	android:theme
+		ADDED from C:\Users\DSClifford\Downloads\amd64\Desktop\SmartECG\SmartECG\app\src\main\AndroidManifest.xml:35:9-56
+activity#edu.utk.biodynamics.MainActivity
+ADDED from C:\Users\DSClifford\Downloads\amd64\Desktop\SmartECG\SmartECG\app\src\main\AndroidManifest.xml:36:9-48:20
+	android:windowSoftInputMode
+		ADDED from C:\Users\DSClifford\Downloads\amd64\Desktop\SmartECG\SmartECG\app\src\main\AndroidManifest.xml:41:13-54
+	android:screenOrientation
+		ADDED from C:\Users\DSClifford\Downloads\amd64\Desktop\SmartECG\SmartECG\app\src\main\AndroidManifest.xml:40:13-50
+	android:label
+		ADDED from C:\Users\DSClifford\Downloads\amd64\Desktop\SmartECG\SmartECG\app\src\main\AndroidManifest.xml:39:13-45
+	android:configChanges
+		ADDED from C:\Users\DSClifford\Downloads\amd64\Desktop\SmartECG\SmartECG\app\src\main\AndroidManifest.xml:38:13-74
+	android:name
+		ADDED from C:\Users\DSClifford\Downloads\amd64\Desktop\SmartECG\SmartECG\app\src\main\AndroidManifest.xml:37:13-60
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from C:\Users\DSClifford\Downloads\amd64\Desktop\SmartECG\SmartECG\app\src\main\AndroidManifest.xml:43:13-47:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\DSClifford\Downloads\amd64\Desktop\SmartECG\SmartECG\app\src\main\AndroidManifest.xml:44:17-69
+	android:name
+		ADDED from C:\Users\DSClifford\Downloads\amd64\Desktop\SmartECG\SmartECG\app\src\main\AndroidManifest.xml:44:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\DSClifford\Downloads\amd64\Desktop\SmartECG\SmartECG\app\src\main\AndroidManifest.xml:46:17-77
+	android:name
+		ADDED from C:\Users\DSClifford\Downloads\amd64\Desktop\SmartECG\SmartECG\app\src\main\AndroidManifest.xml:46:27-74
+activity#edu.utk.biodynamics.DeviceListActivity
+ADDED from C:\Users\DSClifford\Downloads\amd64\Desktop\SmartECG\SmartECG\app\src\main\AndroidManifest.xml:49:9-52:59
+	android:label
+		ADDED from C:\Users\DSClifford\Downloads\amd64\Desktop\SmartECG\SmartECG\app\src\main\AndroidManifest.xml:51:13-45
+	android:theme
+		ADDED from C:\Users\DSClifford\Downloads\amd64\Desktop\SmartECG\SmartECG\app\src\main\AndroidManifest.xml:52:13-56
+	android:name
+		ADDED from C:\Users\DSClifford\Downloads\amd64\Desktop\SmartECG\SmartECG\app\src\main\AndroidManifest.xml:50:13-66
+activity#edu.utk.biodynamics.ViewRecActivity
+ADDED from C:\Users\DSClifford\Downloads\amd64\Desktop\SmartECG\SmartECG\app\src\main\AndroidManifest.xml:54:9-58:63
+	android:screenOrientation
+		ADDED from C:\Users\DSClifford\Downloads\amd64\Desktop\SmartECG\SmartECG\app\src\main\AndroidManifest.xml:57:13-50
+	android:label
+		ADDED from C:\Users\DSClifford\Downloads\amd64\Desktop\SmartECG\SmartECG\app\src\main\AndroidManifest.xml:56:13-45
+	android:theme
+		ADDED from C:\Users\DSClifford\Downloads\amd64\Desktop\SmartECG\SmartECG\app\src\main\AndroidManifest.xml:58:13-60
+	android:name
+		ADDED from C:\Users\DSClifford\Downloads\amd64\Desktop\SmartECG\SmartECG\app\src\main\AndroidManifest.xml:55:13-63
+activity#edu.utk.biodynamics.ViewRecChartActivity
+ADDED from C:\Users\DSClifford\Downloads\amd64\Desktop\SmartECG\SmartECG\app\src\main\AndroidManifest.xml:60:9-64:63
+	android:screenOrientation
+		ADDED from C:\Users\DSClifford\Downloads\amd64\Desktop\SmartECG\SmartECG\app\src\main\AndroidManifest.xml:63:13-50
+	android:label
+		ADDED from C:\Users\DSClifford\Downloads\amd64\Desktop\SmartECG\SmartECG\app\src\main\AndroidManifest.xml:62:13-45
+	android:theme
+		ADDED from C:\Users\DSClifford\Downloads\amd64\Desktop\SmartECG\SmartECG\app\src\main\AndroidManifest.xml:64:13-60
+	android:name
+		ADDED from C:\Users\DSClifford\Downloads\amd64\Desktop\SmartECG\SmartECG\app\src\main\AndroidManifest.xml:61:13-68
+service#edu.utk.biodynamics.UartService
+ADDED from C:\Users\DSClifford\Downloads\amd64\Desktop\SmartECG\SmartECG\app\src\main\AndroidManifest.xml:66:9-68:38
+	android:enabled
+		ADDED from C:\Users\DSClifford\Downloads\amd64\Desktop\SmartECG\SmartECG\app\src\main\AndroidManifest.xml:68:13-35
+	android:name
+		ADDED from C:\Users\DSClifford\Downloads\amd64\Desktop\SmartECG\SmartECG\app\src\main\AndroidManifest.xml:67:13-59
+activity#edu.utk.biodynamics.alertActivity
+ADDED from C:\Users\DSClifford\Downloads\amd64\Desktop\SmartECG\SmartECG\app\src\main\AndroidManifest.xml:70:9-74:20
+	android:label
+		ADDED from C:\Users\DSClifford\Downloads\amd64\Desktop\SmartECG\SmartECG\app\src\main\AndroidManifest.xml:72:13-52
+	android:theme
+		ADDED from C:\Users\DSClifford\Downloads\amd64\Desktop\SmartECG\SmartECG\app\src\main\AndroidManifest.xml:73:13-56
+	android:name
+		ADDED from C:\Users\DSClifford\Downloads\amd64\Desktop\SmartECG\SmartECG\app\src\main\AndroidManifest.xml:71:13-61
+service#edu.utk.biodynamics.QrsDetectService
+ADDED from C:\Users\DSClifford\Downloads\amd64\Desktop\SmartECG\SmartECG\app\src\main\AndroidManifest.xml:76:9-79:19
+	android:exported
+		ADDED from C:\Users\DSClifford\Downloads\amd64\Desktop\SmartECG\SmartECG\app\src\main\AndroidManifest.xml:78:13-37
+	android:name
+		ADDED from C:\Users\DSClifford\Downloads\amd64\Desktop\SmartECG\SmartECG\app\src\main\AndroidManifest.xml:77:13-64
+service#edu.utk.biodynamics.DatabaseUtils.DBUpdateService
+ADDED from C:\Users\DSClifford\Downloads\amd64\Desktop\SmartECG\SmartECG\app\src\main\AndroidManifest.xml:80:9-83:19
+	android:exported
+		ADDED from C:\Users\DSClifford\Downloads\amd64\Desktop\SmartECG\SmartECG\app\src\main\AndroidManifest.xml:82:13-37
+	android:name
+		ADDED from C:\Users\DSClifford\Downloads\amd64\Desktop\SmartECG\SmartECG\app\src\main\AndroidManifest.xml:81:13-77
+activity#edu.utk.biodynamics.SettingsActivity
+ADDED from C:\Users\DSClifford\Downloads\amd64\Desktop\SmartECG\SmartECG\app\src\main\AndroidManifest.xml:85:9-88:20
+	android:label
+		ADDED from C:\Users\DSClifford\Downloads\amd64\Desktop\SmartECG\SmartECG\app\src\main\AndroidManifest.xml:87:13-60
+	android:name
+		ADDED from C:\Users\DSClifford\Downloads\amd64\Desktop\SmartECG\SmartECG\app\src\main\AndroidManifest.xml:86:13-64
