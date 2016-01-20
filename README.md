@@ -1,0 +1,3 @@
+#SmartECG
+
+This application links with a handheld ECG device (single-lead, thumb-electrode design) via Bluetooth 4.0 LE. Heart-rate analysis is performed on the incoming data, and the user is presented with a real-time ECG and their heart rate. 30 second records are stored on the device (24 hours max) for subsequent review. The application automatically polls for the device, and is aware of when the user touches the electrodes, beginning the recording process - just open the app, and touch the device. If inadequate contact is made with the electrodes, or contact is interupted, the recording is ended and will restart when correct contact is made.
